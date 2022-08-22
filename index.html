@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body class="container">
+    <h1>Hello,Food</h1>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tanzid</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/">youtube</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  surbice
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=QaPUsdQBARI">
+                    <input class="btn btn-primary" type="surch" value="surch">
+                  </a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG_20201016_235520-01-removebg-preview.png" class="d-block w-75 wh-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-primary">Tanzid anan Marzan</h5>
+              <p class="text-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, expedita eveniet! Aperiam necessitatibus unde minima ratione quaerat reiciendis, eum sapiente illum, obcaecati corporis facilis animi, aliquid in nisi consequatur sed.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMG_20201016_235520-01-removebg-preview.png" class="d-block w-75" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-info">Marzan</h5>
+              <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cum neque adipisci vitae sed deserunt necessitatibus assumenda laborum dicta? Itaque magnam quia quod commodi accusantium.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="IMG_20201016_235520-01-removebg-preview.png" class="d-block w-75" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-success">Tanzid </h5>
+              <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugiat, alias magnam, facilis deserunt ipsum ex quos eum, unde facere libero nobis minus. Tenetur voluptas obcaecati dolorum molestias, reprehenderit fuga.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <br>
+      <!-- == -->
+      <h1 class="text-center m-6">Abous us</h1>
+      <div class="row">
+        <div class="col-ms-3 col-lg-4 shadow-lg p-3 mb-5 ">
+          <img class="img-fluid" src="img/breakfast/breakfast1.png" alt="">
+          <h2>breakfast-1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$500.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4 ">
+          <img class="img-fluid" src="img/breakfast/breakfast2.png" alt="">
+          <h2>breakfast-2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$500.00</button>
+        </div>
+        <div class="col shadow-lg p-3 mb-3 ">
+          <img class="img-fluid" src="img/breakfast/breakfast3.png" alt="">
+          <h2>breakfast-3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$500.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4 ">
+          <img class="img-fluid" src="img/breakfast/breakfast4.png" alt="">
+          <h2>breakfast-4</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$500.00</button>
+        </div>
+        <div class="col shadow-lg p-3 mb-3 ">
+          <img class="img-fluid" src="img/breakfast/breakfast5.png" alt="">
+          <h2>breakfast-5</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$500.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4 ">
+          <img class="img-fluid" src="img/breakfast/breakfast6.png" alt="">
+          <h2>breakfast-6</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$500.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4  shadow-lg p-3 mb-3 ">
+          <img class="img-fluid" src="img/breakfast/breakfast3.png" alt="">
+          <h2>breakfast-1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$900.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4 ">
+          <img class="img-fluid" src="img/breakfast/breakfast1.png" alt="">
+          <h2>breakfast-7</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$700.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4  shadow-sm p-3 mb-3 ">
+          <img class="img-fluid" src="img/breakfast/breakfast2.png" alt="">
+          <h2>breakfast-8</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$500.00</button>
+        </div>
+       
+      </div>
+      <br>
+      <br>
+      <!-- ==== -->
+      <div class="row">
+        <div class="col-ms-3 col-lg-4">
+          <img class="img-fluid" src="img/dinner/dinner1.png" alt="">
+          <h2>dinner-1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$200.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4 shadow-lg p-3 mb-5 ">
+          <img class="img-fluid" src="img/dinner/dinner2.png" alt="">
+          <h2>dinner-2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$400.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4">
+          <img class="img-fluid" src="img/dinner/dinner3.png" alt="">
+          <h2>dinner-3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$100.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4 shadow-lg p-3 mb-5 ">
+          <img class="img-fluid" src="img/dinner/dinner4.png" alt="">
+          <h2>dinner=4</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$1000.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4">
+          <img class="img-fluid" src="img/dinner/dinner5.png" alt="">
+          <h2>dinner-5</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$900.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4 shadow-lg p-3 mb-5 ">
+          <img class="img-fluid" src="img/dinner/dinner6.png" alt="">
+          <h2>dinner-6</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$320.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4">
+          <img class="img-fluid" src="img/dinner/dinner1.png" alt="">
+          <h2>dinner-7</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$450.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4 shadow-lg p-3 mb-5 ">
+          <img class="img-fluid" src="img/dinner/dinner2.png" alt="">
+          <h2>dinner-8</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$850.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4">
+          <img class="img-fluid" src="img/dinner/dinner3.png" alt="">
+          <h2>dinner-9</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$480.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4 shadow-lg p-3 mb-5 ">
+          <img class="img-fluid" src="img/dinner/dinner5.png" alt="">
+          <h2>dinner-10</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$650.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-4">
+          <img class="img-fluid" src="img/dinner/dinner6.png" alt="">
+          <h2>dinner-11</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$450.00</button>
+        </div>
+        <div class="col-ms-4 col-lg-4
+        shadow-lg p-3 mb-5 ">
+          <img class="img-fluid" src="img/dinner/dinner4.png" alt="">
+          <h2>dinner-12</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$470.00</button>
+        </div>
+        <br>
+        <br>
+        <!-- ------ -->
+        <div class="col-ms-3 col-lg-3 shadow-sm p-3 mb-5">
+          <img class="img-fluid" src="img/lunch/lunch4.png" alt="">
+          <h2>lunch-1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$650.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-3 ">
+          <img class="img-fluid" src="img/lunch/lunch5.png" alt="">
+          <h2>lunch-2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$780.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-3 shadow-sm p-3 mb-5">
+          <img class="img-fluid" src="img/lunch/lunch2.png" alt="">
+          <h2>lunch-3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$560.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-3">
+          <img class="img-fluid" src="img/lunch/lunch1.png" alt="">
+          <h2>lunch-4</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$450.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-3 shadow-sm p-3 mb-5">
+          <img class="img-fluid" src="img/lunch/lunch4.png" alt="">
+          <h2>lunch-5</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$460.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-3">
+          <img class="img-fluid" src="img/lunch/lunch1.png" alt="">
+          <h2>lunch-6</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$890.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-3 shadow-sm p-3 mb-5">
+          <img class="img-fluid" src="img/lunch/lunch6.png" alt="">
+          <h2>lunch-7</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$780.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-3">
+          <img class="img-fluid" src="img/lunch/lunch5.png" alt="">
+          <h2>lunch-8</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$650.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-3 shadow-sm p-3 mb-5">
+          <img class="img-fluid" src="img/lunch/lunch4.png" alt="">
+          <h2>lunch-9</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$960.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-3">
+          <img class="img-fluid" src="img/lunch/lunch3.png" alt="">
+          <h2>lunch-6</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$480.00</button>
+        </div>
+        <div class="col-ms-3 col-lg-3 shadow-sm p-3 mb-5">
+          <img class="img-fluid" src="img/lunch/lunch2.png" alt="">
+          <h2>lunch-3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione alias, odio voluptatum consequuntur modi sequi vero maiores laboriosam? Nulla corporis libero repudiandae! Itaque quod cum sint obcaecati sequi sit numquam!</p>
+          <button type="button" class="btn btn-primary" disabled>$360.00</button>
+        </div>
+       <hr> 
+       <br>
+       <br>
+       <div class="accordion w-75 ms-6 shadow-sm p-3 mb-5  " id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              breakfast #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Dinner #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              lunch #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---- -->
+      <form>
+        <div class="mb-3 w-50">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Enter the Name</div>
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <label for="exampleInputEmail1" class="form-label">phone Namber</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Enter the phone Namber</div>
+        </div>
+        <div class="mb-3 w-50 text-danger">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">breakfast</label>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Dinner</label>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">lunch</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <br>
+      <hr>
+      <br>
+      <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
